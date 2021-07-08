@@ -26,7 +26,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "guzzlehttp/guzzle-services": "^1.2"
     },
-    "conflicts": {
+    "conflict": {
         "qcloud/cos-sdk-v5": "*"
     }
 }
