@@ -1,5 +1,5 @@
 {
-    "name": "qcloud/cos-sdk-v5",
+    "name": "sinkcup/cos-sdk-v5-updated",
     "description": "PHP SDK for QCloud COS",
     "keywords": [
         "qcloud", "cos", "php"
@@ -26,5 +26,8 @@
         "guzzlehttp/guzzle": ">=6.2.1",
         "guzzlehttp/guzzle-services": ">=1.1",
         "guzzlehttp/psr7": "<2.0"
+    },
+    "conflict": {
+        "qcloud/cos-sdk-v5": "*"
     }
 }
